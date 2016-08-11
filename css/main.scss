@@ -1,0 +1,250 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "materialize";
+@import "https://fonts.googleapis.com/css?family=Alegreya:700|Montserrat:300|Open+Sans:300,400|Sansita+One";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+// Our variables
+$base-font-family: 'Alegreya',sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+body{
+  background-color: #fcfcfc;
+  word-wrap: normal;
+  text-align: justify;
+}
+
+.quienes{
+  h3{
+    font-weight: 500;
+    font-size: 1.3em;
+  }
+}
+.page-heading{
+  padding-top: 40px;
+}
+img.avatar{
+
+  height: 80px;
+  weight: 80px;
+}
+img.avatar-big{
+
+  height: 150px;
+  weight: 150px;
+}
+a#download-button {
+border: 2px white solid;
+border-radius: 5px;
+color: white;
+}
+
+
+h1{
+  font-family: 'Alegreya', serif;
+  color: #039be5;
+  margin: 0 1.424rem 0;
+
+}
+h2{
+  font-family: 'Alegreya', serif;
+  color: #EA6C6F;
+  font-size: 3.5em;
+
+
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
+
+nav{
+  background-color: #fcfcfc;
+  ul{
+    a{
+      color: #ee6e73;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  i.material-icons {
+    color: #ee6e73;
+  }
+}
+img.logo{
+  height: 50px;
+  padding-top: 10px;
+
+}
+
+
+.nav-home.transparent{
+  box-shadow:none;
+}
+.coverpage{
+  background-image: url('{{site.baseurl}}/images/plain.jpeg');
+  background-position: center;
+  background-size: cover;
+  a{
+    color: #ea6c6f;
+
+  }
+  .nav-home{
+    height: 100px;
+
+    img.logo{
+      height: 80px;
+      padding-top: 20px;
+    }
+    .right{
+      padding-top: 1.5rem;
+    }
+
+
+
+  }
+}
+#download-button{
+  a{
+    color: white;
+  }
+}
+#features{
+  .row{
+      .pic1{
+        background-image: url('{{site.baseurl}}/images/aeropuerto.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        max-width: 720px;
+        height:  240px;
+
+
+      }
+      .pic2{
+
+        background-image: url('{{site.baseurl}}/images/proyecto-vida.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        max-width:  720px;
+        height:  240px;
+      }
+      p{
+        font-size: 2em;
+        letter-spacing: -2px;
+        text-align: center;
+        font-family: 'Alegreya', serif;
+        color: #EA6C6F;
+        position: absolute;
+        bottom: -5%;
+        left: 30px;
+      }
+      h1{
+        font-family: 'Alegreya', serif;
+        color: #0078b2;
+        margin: 0 1.424rem 0;
+
+      }
+      h2{
+        font-family: 'Alegreya', serif;
+        color: #EA6C6F;
+
+
+      }
+      h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        letter-spacing: -2px;
+      }
+    }
+  }
+.page-footer{
+
+  a{
+    color: white;
+  }
+  .copyright{
+    background-color: #df716e;
+  }
+}
+a.post-link {
+    color: #009688;
+    font-size: 0.7em;
+}
+header.post-header.center{
+  h1 {
+    font-family: 'Alegreya', serif;
+    color: #009688;
+    margin: 0.5em 1.424rem 0;
+    font-size: 3.5em;
+  }
+
+}
+aside{
+  padding-left: 30px;
+}
+
+
+.side-nav {
+  width: 75%;
+  a {
+      color: #df716e;
+  }
+}
+.section.no-pad-bot{
+  .container{
+    height: 30rem;
+    margin-top: 10em;
+  }
+  .header.center.white-text{
+    margin: 0;
+    padding: 0;
+  }
+  .header.col.s12.white-text{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// .col.s12.m4.valign-wrapper{
+//   height: 55vh;
+//
+// }
+
+// Import partials from `sass_dir` (defaults to `_sass`)
