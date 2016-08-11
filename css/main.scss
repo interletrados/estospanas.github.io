@@ -241,7 +241,18 @@ aside{
     padding: 0;
   }
 }
-
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .side-nav{
+    width: 25%;
+  }
+}
+img.post {
+  max-width: 100%;
+  height: auto;
+}
 // .col.s12.m4.valign-wrapper{
 //   height: 55vh;
 //

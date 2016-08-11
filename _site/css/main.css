@@ -6467,3 +6467,10 @@ aside {
 .section.no-pad-bot .header.col.s12.white-text {
   margin: 0;
   padding: 0; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .side-nav {
+    width: 25%; } }
+img.post {
+  max-width: 100%;
+  height: auto; }
