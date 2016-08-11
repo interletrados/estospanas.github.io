@@ -4,17 +4,17 @@
     <title>Estos Panas</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://estospanas.com/estospanas/</link>
-    <atom:link href="http://estospanas.com/estospanas/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 16:30:33 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 16:30:33 +0200</lastBuildDate>
+    <link>http://estospanas.com/</link>
+    <atom:link href="http://estospanas.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 11 Aug 2016 17:57:24 +0200</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2016 17:57:24 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>¿Quiere establecerse en España? ¡Decida bien!</title>
         <description>  &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col l8&quot;&gt;
-      &lt;img src=&quot;/estospanas/images/hero-shoot-desktop.png&quot; alt=&quot;&quot; width=&quot;480px;&quot;/&gt;
+      &lt;img src=&quot;/images/hero-shoot-desktop.png&quot; alt=&quot;&quot; width=&quot;480px;&quot;/&gt;
       &lt;p&gt;
         Fijar residencia en un país ajeno es por adelantado un fenómeno que toca todas nuestras dimensiones humanas y que sin duda está cargado de una gran emocionalidad. Es importante abrir espacio a la racionalidad y estar conscientes de nuestros sesgos. También lo es, disponer de información relevante, confiable y adecuada. No menos lo será, evitar falsas suposiciones o dejarnos convencer por un ferviente apóstol de su experiencia individual.
       &lt;/p&gt;
@@ -62,13 +62,13 @@
 &lt;div class=&quot;col l8 center&quot;&gt;
  &lt;div class=&quot;card teal &quot;&gt;
    &lt;div class=&quot;card-content white-text&quot;&gt;
-     &lt;span&gt;&lt;img class=&quot;avatar circle responsive-img&quot; src=&quot;/estospanas/images/avatarJM.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;br&gt;
+     &lt;span&gt;&lt;img class=&quot;avatar circle responsive-img&quot; src=&quot;/images/avatarJM.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;br&gt;
      &lt;span class=&quot;card-title&quot;&gt;  &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;&lt;span itemprop=&quot;name&quot;&gt;José Manuel García&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
    &lt;p&gt;Abogado, MBA con concentración en finanzas y ciudadano del mundo. Ha sido asesor de instituciones públicas y privadas en Venezuela y más recientemente, consultor de pequeñas empresas, firmas de servicios profesionales y startups. Sus intereses se concentran en el desarrollo de nuevos modelos de negocios e inversiones en las áreas de agro-tecnología, energía sustentable e inteligencia artificial. Es un gran aficionado a los rompecabezas y un apasionado de los viajes en este y otros planetas, a través de la ciencia, sus vivencias y la literatura. &lt;/p&gt;
    &lt;/div&gt;
    &lt;div class=&quot;card-action&quot;&gt;
      &lt;a href=&quot;mailto:scientiaetiuris@gmail.com&quot;&gt;Contactar a Jose&lt;/a&gt;
-     &lt;a href=&quot;/estospanas/consulta.html&quot;&gt;Realizar Consulta&lt;/a&gt;
+     &lt;a href=&quot;/consulta.html&quot;&gt;Realizar Consulta&lt;/a&gt;
    &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
@@ -76,8 +76,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 08 Aug 2016 00:00:00 +0200</pubDate>
-        <link>http://estospanas.com/estospanas/2016/08/08/establecerse-en-espan-a.html</link>
-        <guid isPermaLink="true">http://estospanas.com/estospanas/2016/08/08/establecerse-en-espan-a.html</guid>
+        <link>http://estospanas.com/2016/08/08/establecerse-en-espan-a.html</link>
+        <guid isPermaLink="true">http://estospanas.com/2016/08/08/establecerse-en-espan-a.html</guid>
         
         
       </item>

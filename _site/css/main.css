@@ -6384,7 +6384,7 @@ img.logo {
   box-shadow: none; }
 
 .coverpage {
-  background-image: url("/estospanas/images/plain.jpeg");
+  background-image: url("/images/plain.jpeg");
   background-position: center;
   background-size: cover; }
   .coverpage a {
@@ -6401,14 +6401,14 @@ img.logo {
   color: white; }
 
 #features .row .pic1 {
-  background-image: url("/estospanas/images/aeropuerto.png");
+  background-image: url("/images/aeropuerto.png");
   background-size: cover;
   background-position: center;
   position: relative;
   max-width: 720px;
   height: 240px; }
 #features .row .pic2 {
-  background-image: url("/estospanas/images/proyecto-vida.jpg");
+  background-image: url("/images/proyecto-vida.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
