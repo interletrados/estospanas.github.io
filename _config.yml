@@ -6,18 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Estos Panas
+title: Vivir en España - Estos Panas
 email: carlos@camconsulting.online
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Una mano amiga que te recibe para ayudarte en tu nueva vida en España
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://estospanas.com" # the base hostname & protocol for your site
+url: "http://www.estospanas.com" # the base hostname & protocol for your site
+twitter:
+  username: estospanasweb
+facebook:
+  publisher: https://www.facebook.com/estospanas/
 
 
 # Build settings
 markdown: kramdown
 
 gems:
-  - jekyll-octicons
+  - jekyll-seo-tag
