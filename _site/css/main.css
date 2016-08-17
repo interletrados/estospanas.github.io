@@ -6474,3 +6474,10 @@ aside {
 img.post {
   max-width: 100%;
   height: auto; }
+
+.card .card-title {
+  font-size: 1.13em;
+  font-weight: 600; }
+
+.card .card-content p {
+  font-size: 0.9em; }
