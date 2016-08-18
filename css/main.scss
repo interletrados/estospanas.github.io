@@ -195,6 +195,18 @@ img.logo{
     }
   }
 .page-footer{
+  h2{
+    font-size: 1.2em;
+    color: white;
+  }
+  .social{
+
+    ul li {
+        list-style-type: none;
+        
+    }
+
+  }
 
   a{
     color: white;
@@ -228,10 +240,7 @@ aside{
   }
 }
 .section.no-pad-bot{
-  .container{
-    height: 30rem;
-    margin-top: 10em;
-  }
+
   .header.center.white-text{
     margin: 0;
     padding: 0;
@@ -240,6 +249,11 @@ aside{
     margin: 0;
     padding: 0;
   }
+  ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 10px 0 0 ;
+}
 }
 @media only screen
   and (min-device-width: 768px)
@@ -253,14 +267,39 @@ img.post {
   max-width: 100%;
   height: auto;
 }
-.card .card-title {
-    font-size: 1.13em;
-    font-weight: 600;
+// .card .card-title {
+//     font-size: 1.13em;
+//     font-weight: 600;
+//
+// }
+// .card .card-content p {
+//     font-size: 0.9em;
+// }
+i.material-icons {
+  color: #ee6e73;
+}
+p.light.cardpanel.teal {
+    color: white;
+    padding: 1em;
+    height: 11em;
+}
+.col.s12.m6.pull-m6 {
+  margin-top: 5vw;
+}
+.card{
+  h5{
+    font-size: 1.4rem;
+  }
+  ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 8px;
+  }
+  .row{
+    margin-bottom: 0;
+  }
+}
 
-}
-.card .card-content p {
-    font-size: 0.9em;
-}
 // .col.s12.m4.valign-wrapper{
 //   height: 55vh;
 //
