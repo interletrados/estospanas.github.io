@@ -12,7 +12,9 @@ description: Una mano amiga que te recibe para ayudarte en tu nueva vida en Espa
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.estospanas.com" # the base hostname & protocol for your site
 twitter:
-  username: estospanasweb
+  site: estospanasweb
+  content: summary_large_image
+
 facebook:
   publisher: https://www.facebook.com/estospanas/
 google_site_verification:
@@ -23,3 +25,7 @@ markdown: kramdown
 
 gems:
   - jekyll-seo-tag
+
+fb_admins:          https://www.facebook.com/carlosaugustomarchena
+fb_appid:           1138698906223730
+avatar:             /images/avatarCA.png
