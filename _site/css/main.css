@@ -6500,3 +6500,6 @@ p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright {
   padding: 0 8px; }
 .card .row {
   margin-bottom: 0; }
+
+.socialshare {
+  line-height: 20px; }
