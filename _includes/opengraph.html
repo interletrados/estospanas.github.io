@@ -5,16 +5,12 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 {% if page.image %}
-  <meta content="{{ page.image }}" property="og:image">
+  <meta content="/{{ page.image }}" property="og:image">
 {% else %}
   <meta content="/images/Facebook-Cover.png" property="og:image">
   {% endif %}
 
-  {% if post.image %}
-    <meta content="{{ post.image }}" property="og:image">
-  {% else %}
-    <meta content="/img/Facebook-Cover.png" property="og:image">
-    {% endif %}
+
 
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
@@ -31,4 +27,4 @@
 {% endif %}
 
 <meta property="fb:admins" content="{{ site.fb_admins }}">
-<meta property="fb:app_id" content="{{ site.fb_appid }}">
+<meta property="fb:app_id" content="1138698906223730">
