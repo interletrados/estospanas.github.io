@@ -1,13 +1,13 @@
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
-<meta property="og:type" content="{% if page.thumbnail %}article{% else %}website{% endif %}">
+<meta property="og:type" content="{% if page.image %}article{% else %}website{% endif %}">
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 {% if page.image %}
   <meta content="/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="/images/Facebook-Cover.png" property="og:image">
+  <meta content="http://www.estospanas.com/images/Facebook-Cover.png" property="og:image">
   {% endif %}
 
 
@@ -16,7 +16,7 @@
 
 <meta property="og:site_name" content="{{ site.title }}">
 
-<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:locale" content="es_ES">
 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
