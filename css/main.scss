@@ -101,9 +101,9 @@ nav{
       color: #ee6e73;
       font-family: 'Roboto', sans-serif;
     }
-  }
-  i.material-icons {
-    color: #ee6e73;
+    i.material-icons {
+      color: white;
+    }
   }
 }
 img.logo{
@@ -275,9 +275,7 @@ img.post {
 // .card .card-content p {
 //     font-size: 0.9em;
 // }
-i.material-icons {
-  color: #ee6e73;
-}
+
 p.light.cardpanel.teal {
     color: white;
     padding: 1em;
@@ -303,6 +301,9 @@ p.light.cardpanel.teal {
 .socialshare{
   line-height: 20px;
 
+}
+.btn-floating {
+  overflow: visible;
 }
 // .vcita{
 //   min-height: 600px;

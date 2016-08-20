@@ -18,11 +18,12 @@
             <span><img class="avatar circle responsive-img center" src="{{site.baseurl}}/images/avatarJM.png" alt="" /></span><br>
             <p class="post-meta center">{% if page.author %}  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }} · </span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>{% endif %}</p>
           </header>
-          {% include socialshare.html %}
+
+
 
           <div class="post-content" itemprop="articleBody">
             {{ content }}
-            {% include socialshare.html %}
+
           </div>
           <!-- Go to www.addthis.com/dashboard to customize your tools -->
 

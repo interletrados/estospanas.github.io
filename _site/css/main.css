@@ -6373,8 +6373,8 @@ nav {
   nav ul a {
     color: #ee6e73;
     font-family: 'Roboto', sans-serif; }
-  nav i.material-icons {
-    color: #ee6e73; }
+  nav ul i.material-icons {
+    color: white; }
 
 img.logo {
   height: 50px;
@@ -6481,9 +6481,6 @@ img.post {
   max-width: 100%;
   height: auto; }
 
-i.material-icons {
-  color: #ee6e73; }
-
 p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright {
   color: white;
   padding: 1em;
@@ -6503,3 +6500,6 @@ p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright {
 
 .socialshare {
   line-height: 20px; }
+
+.btn-floating {
+  overflow: visible; }
