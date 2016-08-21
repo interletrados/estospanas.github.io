@@ -305,6 +305,36 @@ p.light.cardpanel.teal {
 .btn-floating {
   overflow: visible;
 }
+.collapsible{
+  i{
+    color: #df716e;
+  }
+}
+.post{
+  p.lead{
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+}
+#nav-wrapper{
+  i.material-icons{
+   color: #df716e;
+  }
+}
+.article{
+  h2{
+    font-size: 2em;
+    font-weight: 600;
+    color: #009688;
+  }
+  ul{
+    li{
+      list-style-type: circle;
+      margin-left: 1em;
+    }
+  }
+}
 // .vcita{
 //   min-height: 600px;
 //

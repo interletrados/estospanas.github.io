@@ -1,0 +1,19 @@
+# /_data/authors.yml
+jose:
+  name: José Manuel García
+  display_name: José
+  avatar: http://estospanas.com/images/avatarJM.png
+  email: jgarcia@camconsulting.online
+  bio: "Abogado, MBA con concentración en finanzas y ciudadano del mundo. Ha sido asesor de instituciones públicas y privadas en Venezuela y más recientemente, consultor de pequeñas empresas, firmas de servicios profesionales y startups. Sus intereses se concentran en el desarrollo de nuevos modelos de negocios e inversiones en las áreas de agro-tecnología, energía sustentable e inteligencia artificial. Es un gran aficionado a los rompecabezas y un apasionado de los viajes en este y otros planetas, a través de la ciencia, sus vivencias y la literatura."
+  web: http://estospanas.com
+  twitter: degarciarangel
+
+carlos:
+  name: Carlos Augusto Marchena
+  display_name: Carlos
+  avatar: /images/avatarCA.png
+  email: carlos@camconsulting.online
+  bio: "Luego de 10 años de carrera como abogado decidí que quería estar al frente de una empresa, en contacto directo con los clientes, entendiendo sus necesidades y generando valor para ellos. Por ello hace tres años decidí darle un giro a mi vida y ahora me dedico a lo que más me gusta: crear soluciones para los problemas y necesidades reales de mis clientes, soluciones que sean técnicamente factibles y financieramente viables. Mi hobby es la programación, lo complemento con mi actividad profesional y me facilita la generación de soluciones relacionadas con la transformación digital. Considero que el cambio cultural dentro de una organización es condición necesaria para el éxito en la implantación de una estrategia de transformación digital. La tecnología debe servir a las personas, no lo contrario."
+  web: http://estospanas.com
+  twitter: cmarchena
+  github: cmarchena

@@ -12,9 +12,11 @@ layout: page
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
+            <h1>{{ page.author}}</h1>
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
               {{ post.excerpt }} <span><a href="{{ post.url | prepend: site.baseurl }}">Leer más...</a></span>
+
 
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           </li>
