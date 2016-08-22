@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://www.estospanas.com/opinion/2016/08/19/establecerse-en-espana.html</loc>
-<lastmod>2016-08-19T00:00:00+02:00</lastmod>
+<loc>http://www.estospanas.com/opinion/2016/08/22/establecerse-en-espana.html</loc>
+<lastmod>2016-08-22T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://www.estospanas.com/blog.html</loc>
+</url>
+<url>
+<loc>http://www.estospanas.com/categories.html</loc>
 </url>
 <url>
 <loc>http://www.estospanas.com/consulta.html</loc>
