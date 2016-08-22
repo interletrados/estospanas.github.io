@@ -24,8 +24,7 @@ google_site_verification:
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-seo-tag
+
 
 fb_admins:          https://www.facebook.com/carlosaugustomarchena
 fb_appid:           1138698906223730
