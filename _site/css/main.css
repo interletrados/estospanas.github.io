@@ -6521,3 +6521,6 @@ p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright {
 .article ul li {
   list-style-type: circle;
   margin-left: 1em; }
+
+nav .button-collapse i {
+  color: #df716e; }
