@@ -2581,7 +2581,7 @@ img.logo { height: 50px; padding-top: 10px; }
 
 .nav-home.transparent { box-shadow: none; }
 
-.coverpage { background-image: url("/images/plain.jpeg"); background-position: center; background-size: cover; }
+.coverpage { background-image: url("/il-profiles/images/plain.jpeg"); background-position: center; background-size: cover; }
 .coverpage a { color: #FE930F; }
 .coverpage .nav-home { height: 100px; }
 .coverpage .nav-home img.logo { height: 80px; padding-top: 20px; }
@@ -2589,8 +2589,8 @@ img.logo { height: 50px; padding-top: 10px; }
 
 #download-button a { color: white; }
 
-#features .row .pic1 { background-image: url("/images/aeropuerto.png"); background-size: cover; background-position: center; position: relative; max-width: 720px; height: 240px; }
-#features .row .pic2 { background-image: url("/images/proyecto-vida.jpg"); background-size: cover; background-position: center; position: relative; max-width: 720px; height: 240px; }
+#features .row .pic1 { background-image: url("/il-profiles/images/aeropuerto.png"); background-size: cover; background-position: center; position: relative; max-width: 720px; height: 240px; }
+#features .row .pic2 { background-image: url("/il-profiles/images/proyecto-vida.jpg"); background-size: cover; background-position: center; position: relative; max-width: 720px; height: 240px; }
 #features .row p { font-size: 2em; letter-spacing: -2px; text-align: center; font-family: 'Alegreya', serif; color: #FE930F; position: absolute; bottom: -5%; left: 30px; }
 #features .row h1 { font-family: 'Alegreya', serif; color: #0078b2; margin: 0 1.424rem 0; }
 #features .row h2 { font-family: 'Alegreya', serif; color: #FE930F; }
