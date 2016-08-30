@@ -9,8 +9,8 @@
 title: Vivir en España - Estos Panas
 email: carlos@camconsulting.online
 description: Una mano amiga que te recibe para ayudarte en tu nueva vida en España
-baseurl: "il-profiles" # the subpath of your site, e.g. /blog
-url: "http://interletrados.github.io/" # the base hostname & protocol for your site
+baseurl: "/il-profiles" # the subpath of your site, e.g. /blog
+url: "http://interletrados.github.io" # the base hostname & protocol for your site
 twitter_username: estospanasweb
 twitter:
   site: estospanasweb
