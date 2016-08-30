@@ -4,7 +4,7 @@ jose:
   display_name: José
   hometown:  Caracas 🇻🇪
   location: Caracas 🇻🇪
-  avatar: images/avatarJM.png
+  avatar: images/AvatarJM.png
   email: jgarcia@camconsulting.online
   bio: Abogado
   long-bio: "Abogado, MBA con concentración en finanzas y ciudadano del mundo. Ha sido asesor de instituciones públicas y privadas en Venezuela y más recientemente, consultor de pequeñas empresas, firmas de servicios profesionales y startups. Sus intereses se concentran en el desarrollo de nuevos modelos de negocios e inversiones en las áreas de agro-tecnología, energía sustentable e inteligencia artificial. Es un gran aficionado a los rompecabezas y un apasionado de los viajes en este y otros planetas, a través de la ciencia, sus vivencias y la literatura."
@@ -22,7 +22,7 @@ carlos:
   display_name: Carlos
   hometown:  Caracas 🇻🇪
   location: Madrid 🇪🇸
-  avatar: images/avatarCA.png
+  avatar: images/AvatarCA.png
   email: carlos@camconsulting.online
   bio: marketing
   long-bio: "Luego de 10 años de carrera como abogado decidí que quería estar al frente de una empresa, en contacto directo con los clientes, entendiendo sus necesidades y generando valor para ellos. Por ello hace tres años decidí darle un giro a mi vida y ahora me dedico a lo que más me gusta: crear soluciones para los problemas y necesidades reales de mis clientes, soluciones que sean técnicamente factibles y financieramente viables. Mi hobby es la programación, lo complemento con mi actividad profesional y me facilita la generación de soluciones relacionadas con la transformación digital. Considero que el cambio cultural dentro de una organización es condición necesaria para el éxito en la implantación de una estrategia de transformación digital. La tecnología debe servir a las personas, no lo contrario."
@@ -40,7 +40,7 @@ carlos:
 luis:
   name: Luis Alberto Castro
   display_name: Luis
-  avatar: images/avatarLA.png
+  avatar: images/AvatarLA.png
   email: luis@camconsulting.online
   bio: Abogado
   hometown: Caracas 🇻🇪
@@ -59,7 +59,7 @@ cristina:
   hometown:  Caracas 🇻🇪
   location: Madrid 🇪🇸
   bio: Marketing
-  avatar: images/avatarCY.jpg
+  avatar: images/AvatarCY.jpg
   full-pic: images/perfilCY.jpg
   icon: comment-discussion
   twitter: http://twitter.com/
@@ -70,7 +70,7 @@ alejandro:
   hometown:  Caracas 🇻🇪
   location: Ciudad de Panamá 🇵🇦
   bio: Turismo
-  avatar: images/avatarAC.jpg
+  avatar: images/AvatarAC.jpg
   full-pic: images/perfilAC.jpg
   icon: milestone
 
@@ -79,7 +79,7 @@ nohemi:
   hometown:  Caracas 🇻🇪
   location: Barcelona 🇪🇸
   bio: Diseñadora
-  avatar: images/avatarND.jpg
+  avatar: images/AvatarND.jpg
   full-pic: images/perfilND.jpg
   icon: pencil
 
@@ -88,7 +88,7 @@ ariane:
   hometown:  Caracas 🇻🇪
   location: Madrid 🇪🇸
   bio: Profesora
-  avatar: images/avatarAB.jpg
+  avatar: images/AvatarAB.jpg
   full-pic: images/perfilAB.jpg
   icon: mortar-board
 
@@ -97,7 +97,7 @@ laura:
   hometown:  Caracas 🇻🇪
   location: Londres 🇬🇧
   bio: Abogada
-  avatar: images/avatarLMC.jpg
+  avatar: images/AvatarLMC.jpg
   full-pic: images/perfilLMC.jpg
   icon: law
 
@@ -106,7 +106,7 @@ paola:
   display_name: Paola
   hometown:  Caracas 🇻🇪
   location: Caracas 🇻🇪
-  avatar: images/avatarPM.jpg
+  avatar: images/AvatarPM.jpg
   bio: Periodista
   linkedin: https://ve.linkedin.com/in/paola-marchena-gonzález-64b069b0
   twitter: https://twitter.com/pau_m
