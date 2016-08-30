@@ -34,7 +34,7 @@
            <div class="card-content white-text">
              <span><img class="avatar circle responsive-img" src="{{ author.avatar }}" alt="{{ author.name }} bio foto" /></span><br>
              <span class="card-title">{% if page.author %}  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}{% endif %}</span></span></span>
-           {% if author.bio %}<p> {{ author.bio }}</p>{% endif %}
+           {% if author.long-bio %}<p> {{ author.long-bio }}</p>{% endif %}
            </div>
            <div class="card-action">
              <a href="mailto:{{ author.email }}">Contactar a {{ author.display_name }} </a>

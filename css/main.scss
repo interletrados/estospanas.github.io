@@ -17,7 +17,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #FE930F;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,10 +43,14 @@ $on-laptop:        800px;
         @content;
     }
 }
+html{
+  height: 100%;
+}
 body{
   background-color: #fcfcfc;
   word-wrap: normal;
   text-align: justify;
+
 }
 
 .quienes{
@@ -77,13 +81,13 @@ color: white;
 
 h1{
   font-family: 'Alegreya', serif;
-  color: #039be5;
+  color: #FE930F;
   margin: 0 1.424rem 0;
 
 }
 h2{
   font-family: 'Alegreya', serif;
-  color: #EA6C6F;
+  color: #FE930F;
   font-size: 3.5em;
 
 
@@ -98,7 +102,7 @@ nav{
   background-color: #fcfcfc;
   ul{
     a{
-      color: #ee6e73;
+      color: #FE930F;
       font-family: 'Roboto', sans-serif;
     }
     i.material-icons {
@@ -121,7 +125,7 @@ img.logo{
   background-position: center;
   background-size: cover;
   a{
-    color: #ea6c6f;
+    color: #FE930F;
 
   }
   .nav-home{
@@ -170,7 +174,7 @@ img.logo{
         letter-spacing: -2px;
         text-align: center;
         font-family: 'Alegreya', serif;
-        color: #EA6C6F;
+        color: #FE930F;
         position: absolute;
         bottom: -5%;
         left: 30px;
@@ -183,7 +187,7 @@ img.logo{
       }
       h2{
         font-family: 'Alegreya', serif;
-        color: #EA6C6F;
+        color: #FE930F;
 
 
       }
@@ -212,7 +216,7 @@ img.logo{
     color: white;
   }
   .copyright{
-    background-color: #df716e;
+    background-color: white;
   }
 }
 a.post-link {
@@ -236,7 +240,7 @@ aside{
 .side-nav {
   width: 75%;
   a {
-      color: #df716e;
+      color: #FE930F;
   }
 }
 .section.no-pad-bot{
@@ -307,7 +311,7 @@ p.light.cardpanel.teal {
 }
 .collapsible{
   i{
-    color: #df716e;
+    color: #FE930F;
   }
 }
 .post{
@@ -319,7 +323,7 @@ p.light.cardpanel.teal {
 }
 #nav-wrapper{
   i.material-icons{
-   color: #df716e;
+   color: #FE930F;
   }
 }
 .article{
@@ -337,7 +341,137 @@ p.light.cardpanel.teal {
 }
 
 nav .button-collapse i {
-    color: #df716e;
+    color: #FE930F;
+}
+// .author-description{
+//   list-style-type: none;
+// }
+// .row.author-page{
+//
+//   .profile{
+//     padding-top:10px;
+//     max-width: 100%;
+//     height: auto;
+//   }
+//   .col.s12.m3.teal.white-text {
+//       height: 100%;
+//   }
+//   .col.s12.center.m9.author-bio {
+//     padding: 0;
+//   }
+// }
+@media only screen and (max-width:340px) {
+ .profile{
+
+    margin: 0 auto;
+}
+.avatar{
+  display:none;
+}
+
+.sidebar-author.white-text.valign-wrapper {
+    height: auto;
+      position: relative;
+    // position: absolute;
+    max-width: none;
+    margin-top:auto;
+    bottom: 0;
+
+
+}
+.valign.center {
+    margin: 0 auto;
+}
+.profile-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+}
+
+// .profile{
+//   height: 500px;
+//   position:absolute;
+// }
+.profile{
+  margin-top: 6px;
+
+
+  max-width:  921px;
+  position: relative;
+}
+.sidebar-author{
+  height: 100%;
+  background-color: rgba(0,150,136,0.5);
+  position: absolute;
+  z-index: 10;
+  padding: 0;
+  bottom:0;
+  left:0;
+  max-width:29%;
+  word-wrap:break-word;
+  a.waves-effect.transparent.btn.white-text {
+    box-shadow: none;
+    border: 1px solid white;
+    font-size: 0.8em;
+    word-wrap:break-word;
+  }
+  p{
+    padding: 0;
+    font-size: 0.8em;
+  }
+  h4{
+    padding: 0 15px;
+
+  }
+}
+// .transparent{
+//   zoom: 0;
+// 	filter: alpha(opacity=70);
+// 	opacity: 0.5;
+//   z-index: auto;
+// }
+img.post {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+
+
+}
+menu{
+  padding: 0;
+  margin: 0;
+  li{
+    list-style-type: no;
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
+
+.card.member-grid.center{
+  background-color: rgba(0,150,136,0.5);
+  height: 300px;
+  p{
+    line-height: 2em;
+  }
+  .card-title {
+    line-height: 1.5em;
+    text-align: center;
+    font-size:1.1em;
+    max-width: 90%;
+    height: 100px;
+
+  }
+  .card-action{
+    padding-top: 10px;
+    p{
+      height: 50px;
+    }
+    li{
+      list-style-type: none;
+    }
+  }
 }
 // .vcita{
 //   min-height: 600px;

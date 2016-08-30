@@ -1,0 +1,113 @@
+- name: José García
+  display_name: José
+  hometown:  Caracas 🇻🇪
+  location: Caracas 🇻🇪
+  avatar: http://estospanas.com/images/avatarJM.png
+  email: jgarcia@camconsulting.online
+  bio: Abogado
+  long-bio: "Abogado, MBA con concentración en finanzas y ciudadano del mundo. Ha sido asesor de instituciones públicas y privadas en Venezuela y más recientemente, consultor de pequeñas empresas, firmas de servicios profesionales y startups. Sus intereses se concentran en el desarrollo de nuevos modelos de negocios e inversiones en las áreas de agro-tecnología, energía sustentable e inteligencia artificial. Es un gran aficionado a los rompecabezas y un apasionado de los viajes en este y otros planetas, a través de la ciencia, sus vivencias y la literatura."
+  website: http://estospanas.com
+  wbname: estospanas
+  linkedin: https://es.linkedin.com/in/cmarchena
+  twitter: http://twitter.com/degarciarangel
+  full-pic: images/perfilJM.jpg
+  icon: law
+  pro: si
+  page: jose-manuel-garcia
+
+
+- name: Carlos Marchena
+  display_name: Carlos
+  hometown:  Caracas 🇻🇪
+  location: Madrid 🇪🇸
+  avatar: /images/avatarCA.png
+  email: carlos@camconsulting.online
+  bio: Marketing
+  long-bio: "Luego de 10 años de carrera como abogado decidí que quería estar al frente de una empresa, en contacto directo con los clientes, entendiendo sus necesidades y generando valor para ellos. Por ello hace tres años decidí darle un giro a mi vida y ahora me dedico a lo que más me gusta: crear soluciones para los problemas y necesidades reales de mis clientes, soluciones que sean técnicamente factibles y financieramente viables. Mi hobby es la programación, lo complemento con mi actividad profesional y me facilita la generación de soluciones relacionadas con la transformación digital. Considero que el cambio cultural dentro de una organización es condición necesaria para el éxito en la implantación de una estrategia de transformación digital. La tecnología debe servir a las personas, no lo contrario."
+  web: http://estospanas.com
+  linkedin: https://es.linkedin.com/in/cmarchena
+  twitter: http://twitter.com/cmarchena
+  github: http://github.com/cmarchena
+  full-pic: images/perfilCA.jpg
+  website: http://cmarchena.com
+  wbname: cmarchena.com
+  dribbble: http://dribbble.com/cmarchena
+  icon: comment-discussion
+  pro: si
+  page: carlos-marchena
+
+- name: Luis Castro
+  display_name: Luis
+  avatar: /images/avatarLA.png
+  email: luis@camconsulting.online
+  bio: Abogado
+  hometown: Caracas 🇻🇪
+  location: Madrid 🇪🇸
+  long-bio: "Es Abogado y Master en Derecho de las Telecomunicaciones y Tecnologías de la Información. Durante sus 10 años de experiencia profesional, ha trabajado en variedad de sectores, incluyendo entre otros, el de transporte y las telecomunicaciones. Desde hace poco más de un año se ha interesado en el marketing digital y el community management, y más recientemente en la gestión de proyectos digitales. Apasionado de las nuevas tecnologías. Sus aficiones incluyen los videojuegos, la lectura y la música."
+  website: http://estospanas.com
+  wbname: Home
+  twitter: http://twitter.com/luisalbertocs
+  github: luisalbertocs
+  full-pic: images/perfilLMC.jpg
+  icon: law
+  pro: si
+  page: luis-castro
+
+- name: Cristina Yanez
+  hometown:  Caracas 🇻🇪
+  location: Madrid 🇪🇸
+  bio: Marketing
+  avatar: images/avatarCY.jpg
+  full-pic: images/perfilCY.jpg
+  icon: comment-discussion
+  twitter: http://twitter.com/
+  github: http://twitter.com/
+  page: cristina-yanez
+
+- name: Alejandro Casabiel
+  hometown:  Caracas 🇻🇪
+  location: Ciudad de Panamá 🇵🇦
+  bio: Turismo
+  avatar: images/avatarAC.jpg
+  full-pic: images/perfilAC.jpg
+  page: alejandro-casabiel
+  icon: milestone
+
+- name: Nohemí Dicurú
+  hometown:  Caracas 🇻🇪
+  location: Barcelona 🇪🇸
+  bio: Diseñadora
+  avatar: images/avatarND.jpg
+  full-pic: images/perfilND.jpg
+  icon: pencil
+  page: nohemi-dicuru
+
+- name: Ariane de Bilbao
+  hometown:  Caracas 🇻🇪
+  location: Madrid 🇪🇸
+  bio: Profesora
+  avatar: images/avatarAB.jpg
+  full-pic: images/perfilAB.jpg
+  icon: mortar-board
+  page: ariane-de-bilbao
+
+- name: Laura M. Castro
+  hometown:  Caracas 🇻🇪
+  location: Londres 🇬🇧
+  bio: Abogada
+  avatar: images/avatarLMC.jpg
+  full-pic: images/perfilLMC.jpg
+  icon: law
+  page: laura-castro
+
+- name: Paola Marchena
+  display_name: Paola
+  hometown:  Caracas 🇻🇪
+  location: Caracas 🇻🇪
+  avatar: images/avatarPM.jpg
+  bio: Periodista
+  linkedin: https://ve.linkedin.com/in/paola-marchena-gonzález-64b069b0
+  twitter: https://twitter.com/pau_m
+  full-pic: images/perfilPM.jpg
+  icon: book
+  page: paola-marchena

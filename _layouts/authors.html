@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+  {% include head.html %}
+
+  <body>
+    {% include facebook-sdk.html %}
+
+    {% include nav.html %}
+
+
+    {% if page.author %}
+    {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    <div class="container">
+      <div class="profile">
+        <div class="sidebar-author white-text valign-wrapper col s12 m4">
+        <div class="valign center">
+          <ul class="author-description center ">
+            <li class="collection-item avatar"><img src="{{ author.avatar }}" class="avatar circle responsive-img" alt="{{ author.name }} bio foto" /><br>{% if author.pro %}<span><img src="images/pro.png" alt="" /></span>{% endif %}</li>
+            <li class="collection-item">
+              <h4>{{author.name}}</h4></li>
+            <li class="collection-item">
+              <p><span class="octicon octicon-home"></span> De {{author.hometown}}</p>
+            </li>
+            <li class="collection-item">
+              <p><span class="octicon octicon-location"></span> Ahora en {{author.location}}</p>
+            </li>
+            <li class="collection-item"><span class="mega-octicon octicon-{{author.icon}}"></span>
+
+              <p>{{author.bio}}</p>
+            </li>
+            <li>{% if author.website %}
+              <a class="waves-effect transparent btn white-text" href="{{ author.website }}"> mi sitio {{ author.wbname }}</a>{% endif %}
+
+          </li>
+          </ul>
+
+          <menu class="center">
+            {% if author.linkedin %}<li><a href="{{ author.linkedin }}" target="_blank">{% include linkedin.html %}</a></li>{% endif %}
+            {% if author.twitter  %}<li><a href="{{ author.twitter }}" target="_blank">{% include twitter.html %}</a></li>{% endif %}
+            {% if author.github  %}<li><a href="{{ author.github }}" target="_blank">{% include github-white.html %}</a></li>{% endif %}
+            {% if author.dribbble  %}<li><a href=" {{ author.dribbble }} " target="_blank">{% include dribbble.html %}</a></li>{% endif %}
+          </menu>
+        </div>
+      </div>
+      <div class="profile-img col s12"><img class="responsive-img" src="{{ author.full-pic }}" alt=""  />
+
+      </div>
+
+</div>
+
+
+    </div>
+
+        {% include footer2.html %}
+  </body>
+</html>

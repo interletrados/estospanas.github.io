@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<div class="container">
+  <div class="row">
+    <div class="home">
+      <h1 class="center">Nuestros Interletrados</h1>
+
+        <div class="row">
+          {% for member in site.data.members %}
+       <div class="col s12 m4">
+         <div class="card member-grid center">
+           <div class="container">
+             <div class="card-content white-text">
+                <a href="{{site.baseurl}}{{member.page}}"><span><img class="avatar circle responsive-img center" src="{{ member.avatar }}" alt="{{ member.name }} bio foto" /><br />{% if member.pro %}<span><img src="images/pro.png" alt="" /></span>{% endif %}</span><br>
+               <span class="card-title center flow-text"><p>
+                 {{ member.name}}
+               </p></span></a>
+
+             </div>
+             <div class="card-action white-text">
+               <li><span class="mega-octicon octicon-{{member.icon}}"></span></li>
+               <li><p>{{ member.bio}}</p></li>
+            </div>
+
+           </div>
+
+         </div>
+       </div>
+         {% endfor %}
+     </div>
+
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["xi\/4v"]); }
+
+__d("FingerprintMetadataType",[],(function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports={ALBUM:"album",ARTIST:"artist",EPISODE:"episode",SEASON:"season"};}),null);
+__d('SearchTypeaheadLegacyBootloader',['JSCC','SearchDataSource','SearchTypeaheadCore','SearchTypeaheadRenderer','SearchTypeaheadView','Typeahead','TypeaheadSearchRecorderBasic','TypeaheadShowLoadingIndicator'],(function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();var h={init:function i(){b.JSCC=c('JSCC');if(!b.TypeaheadBehaviors)b.TypeaheadBehaviors={};b.TypeaheadBehaviors.showLoadingIndicator=function(j){j.enableBehavior(c('TypeaheadShowLoadingIndicator'));};b.TypeaheadBehaviors.searchRecorderBasic=function(j){j.enableBehavior(c('TypeaheadSearchRecorderBasic'));};}};f.exports=h;}),null);
