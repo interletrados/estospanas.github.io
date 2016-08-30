@@ -2640,11 +2640,11 @@ p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright { c
 
 nav .button-collapse i { color: #FE930F; }
 
-@media only screen and (max-width: 340px) { .profile { margin: 0 auto; }
-  .avatar { display: none; }
-  .sidebar-author.white-text.valign-wrapper { height: auto; position: relative; max-width: none; margin-top: auto; bottom: 0; }
+@media only screen and (max-width: 768px) { .profile { position: static; margin: 0 auto; }
+  .avatar { position: static; padding-top: 10px; }
+  .sidebar-author.white-text.valign-wrapper { height: auto; position: static; max-width: none; margin-top: auto; bottom: 0; }
   .valign.center { margin: 0 auto; }
-  .profile-img { position: absolute; bottom: 0; left: 0; } }
+  .profile-img { position: static; bottom: 0; left: 0; } }
 .profile { margin-top: 6px; max-width: 921px; position: relative; }
 
 .sidebar-author { height: 100%; background-color: rgba(0, 150, 136, 0.5); position: absolute; z-index: 10; padding: 0; bottom: 0; left: 0; max-width: 29%; word-wrap: break-word; }
@@ -2659,7 +2659,7 @@ menu li { list-style-type: no; display: inline-block; padding: 0 10px; }
 
 .card.member-grid.center { background-color: rgba(0, 150, 136, 0.5); height: 300px; }
 .card.member-grid.center p { line-height: 2em; }
-.card.member-grid.center .card-title { line-height: 1.5em; text-align: center; font-size: 1.1em; max-width: 90%; height: 100px; }
+.card.member-grid.center .card-title { line-height: 1.5em; text-align: center; font-size: 1.1em; max-width: 90%; height: 200px; }
 .card.member-grid.center .card-action { padding-top: 10px; }
 .card.member-grid.center .card-action p { height: 50px; }
 .card.member-grid.center .card-action li { list-style-type: none; }
